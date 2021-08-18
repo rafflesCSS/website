@@ -26,7 +26,7 @@ function ui() {
             </div>
 
             <section>
-                <h1 className={utilStyles.h1}><b>UI-UX Design</b></h1>
+                <h1 className={utilStyles.h1}><b>UI/UX Design</b></h1>
                 <div className={utilStyles.container}>
                     <p>    
                         This course aims to provide course participants with professional feedback on their mockups, and to learn more about UI/UX as a career path.
@@ -43,10 +43,10 @@ function ui() {
                     <table className={utilStyles.table}>
                         <tr>
                             <td>
-                            <Image src="/venue.png" alt="work1" width = "700px" height = "400px"/>
+                            <Image src="/venue.png" alt="work1" width="1000px" height="500px"/>
                             </td>
                             <td>
-                            <Image src="/eat.png" alt="work2" width = "700px" height = "400px"/>
+                            <Image src="/eat.png" alt="work2" width="1000px" height="500px"/>
                             </td>
                         </tr>
                         <tr>
