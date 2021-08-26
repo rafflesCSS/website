@@ -1,10 +1,5 @@
 # About
-This is the code for Raffles Institution's Computer Science Society's website
-
-# Technologies
-- Next.js
-- React
-- HTML/CSS/Javascript
+This is the code for Raffles Institution's Computer Science Society's website (built using Next.js).
 
 # Contributors
 - Nyx Audrey Angelo Iskandar ([xyntechx](https://github.com/xyntechx))
