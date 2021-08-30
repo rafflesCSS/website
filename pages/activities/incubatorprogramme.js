@@ -53,7 +53,7 @@ export default function incubator() {
                     </p>
                     <br></br>
                     <p className={utilStyles.funFact}>
-                        *Fun fact: This website was developed under the Incubator Programme
+                        *Fun fact: This website was developed under the Incubator Programme by <a href="https://github.com/xyntechx">Nyx</a>, <a href="https://github.com/janani10734">Janani</a>, and <a href="https://github.com/glenda-tann">Glenda</a>!
                     </p>
 
                 </div>
