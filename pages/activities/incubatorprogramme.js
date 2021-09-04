@@ -48,7 +48,7 @@ export default function incubator() {
                     </ul>
                     
                     <p>
-                    If your answer if "yes" for any of the above questions, look no further than our Incubator Programme! Through the Incubator Programme, you get to pursue your own competitions/projects/courses during CCA time and receive mentorship from our EXCO members should you require it. If you wish to take part, all you need to do is approach one of the EXCOs!
+                    If your answer is "yes" to any of the above questions, look no further than our Incubator Programme! Through it, you will be given the opportunity to pursue your own competitions/projects/courses during CCA periods. If you wish to take part, all you need to do is approach one of the EXCOs!
                     </p>
                     <br></br>
                     <p className={utilStyles.funFact}>
