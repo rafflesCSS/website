@@ -40,7 +40,7 @@ export default function Home() {
         <h2 className={utilStyles.h2Alt}>About Us</h2>
           <div className={utilStyles.container}>
               <p>
-                  Ever wanted to learn coding but not sure how to begin? Look no further! We, the Computer Science Society, are a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a href="/activities/datasciandmachinelearning" className={utilStyles.a}>Data Science</a> to <a href="/activities/webandmobileappdevt" className={utilStyles.a}>Web Development</a>, so you know that our members are extremely diverse. We welcome students of all skill levels, from absolute beginners to programming experts.
+                  Do you want to learn coding but you're not sure how to begin? Well, look no further! We are the Computer Science Society, a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a href="/activities/datasciandmachinelearning" className={utilStyles.a}>Data Science</a> to <a href="/activities/webandmobileappdevt" className={utilStyles.a}>Web Development</a>, so you know that our members are extremely diverse. We welcome students of all skill levels, from absolute beginners to programming experts.
               </p>
               <p>
                   By the way, sessions are held every Wednesday (our school's Gap Day) from 9 to 11am!
