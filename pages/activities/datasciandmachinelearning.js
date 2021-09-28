@@ -30,18 +30,10 @@ function datasci() {
             <section>
                 <h1 className={utilStyles.h1}><b>Data Science and Machine Learning</b></h1>
                 <div className={utilStyles.container}>
-                    <p></p>
-                   
-                    
                     <p>
-                    Then the Data Science course is just for you! You get to work on your OWN project during CCA time and receive mentorship from our EXCO members. Approach one of them if you wish to take part.
+                        Are you curious about statistics? Do logical and reasoned trends and projections get you going? Do you want to apply your Python knowledge (or Julia or Ruby) to solve real-world problems involving data? If your answer is yes to any of the three questions, the Data Science course is a perfect fit for you!
                     </p>
-                    <br></br>
-                    
-
                 </div>
-
-                <br></br>
             </section>
 
             <section className={utilStyles.footer}>
