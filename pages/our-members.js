@@ -1,18 +1,11 @@
-<<<<<<< HEAD
 import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
-=======
-import Link from 'next/link'
-import utilStyles from '../styles/utils.module.css'
-import Image from 'next/image'
->>>>>>> parent of 79811e5 (Update our-members.js)
 
 function OurMembers() {
     return (
         <div className={utilStyles.screen}>
-<<<<<<< HEAD
             <Head>
                 <title>RI CSS</title>
                 <link
@@ -29,10 +22,6 @@ function OurMembers() {
                 ></link>
             </Head>
 
-=======
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-            
->>>>>>> parent of 79811e5 (Update our-members.js)
             <div className={utilStyles.navBar}>
                 <Link href="/">
                     <a>
@@ -54,22 +43,22 @@ function OurMembers() {
                     </a>
                     <div className={utilStyles.dropdownContent}>
                         <Link href="/activities/ui-uxdesign">
-                            UI/UX Design{" "}
+                            UI/UX Design
                         </Link>
                         <Link href="/activities/webandmobileappdevt">
-                            Web and Mobile App Development{" "}
+                            Web and Mobile App Development
                         </Link>
                         <Link href="/activities/backenddevt">
-                            Backend Development{" "}
+                            Backend Development
                         </Link>
                         <Link href="/activities/competitiveprogramming">
-                            Competitive Programming{" "}
+                            Competitive Programming
                         </Link>
                         <Link href="/activities/datasciandmachinelearning">
-                            Data Science and Machine Learning{" "}
+                            Data Science and Machine Learning
                         </Link>
                         <Link href="/activities/incubatorprogramme">
-                            Incubator Programmes{" "}
+                            Incubator Programmes
                         </Link>
                     </div>
                 </div>
@@ -96,7 +85,7 @@ function OurMembers() {
                 </p>
                 <table>
                     <tr>
-                        {" "}
+                        
                         <td>
                             <Image
                                 src="/ai.png"
@@ -106,7 +95,7 @@ function OurMembers() {
                             />
                         </td>
                         <td>
-                            {" "}
+                            
                             <Image
                                 src="/webdevt.png"
                                 alt="CSS exco"

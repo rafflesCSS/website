@@ -40,22 +40,22 @@ export default function Home() {
                         </a>
                         <div className={utilStyles.dropdownContent}>
                             <Link href="/activities/ui-uxdesign">
-                                UI/UX Design{" "}
+                                UI/UX Design
                             </Link>
                             <Link href="/activities/webandmobileappdevt">
-                                Web and Mobile App Development{" "}
+                                Web and Mobile App Development
                             </Link>
                             <Link href="/activities/backenddevt">
-                                Backend Development{" "}
+                                Backend Development
                             </Link>
                             <Link href="/activities/competitiveprogramming">
-                                Competitive Programming{" "}
+                                Competitive Programming
                             </Link>
                             <Link href="/activities/datasciandmachinelearning">
-                                Data Science and Machine Learning{" "}
+                                Data Science and Machine Learning
                             </Link>
                             <Link href="/activities/incubatorprogramme">
-                                Incubator Programmes{" "}
+                                Incubator Programmes
                             </Link>
                         </div>
                     </div>
@@ -83,14 +83,14 @@ export default function Home() {
                         Science Society, a CCA filled with passionate
                         individuals who believe in the power of technology in
                         transforming our way of life for the better. We offer
-                        courses from{" "}
+                        courses from
                         <a
                             href="/activities/datasciandmachinelearning"
                             className={utilStyles.a}
                         >
                             Data Science
-                        </a>{" "}
-                        to{" "}
+                        </a>
+                        to
                         <a
                             href="/activities/webandmobileappdevt"
                             className={utilStyles.a}

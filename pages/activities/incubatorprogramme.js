@@ -43,22 +43,22 @@ export default function incubator() {
                     </a>
                     <div className={utilStyles.dropdownContent}>
                         <Link href="/activities/ui-uxdesign">
-                            UI/UX Design{" "}
+                            UI/UX Design
                         </Link>
                         <Link href="/activities/webandmobileappdevt">
-                            Web and Mobile App Development{" "}
+                            Web and Mobile App Development
                         </Link>
                         <Link href="/activities/backenddevt">
-                            Backend Development{" "}
+                            Backend Development
                         </Link>
                         <Link href="/activities/competitiveprogramming">
-                            Competitive Programming{" "}
+                            Competitive Programming
                         </Link>
                         <Link href="/activities/datasciandmachinelearning">
-                            Data Science and Machine Learning{" "}
+                            Data Science and Machine Learning
                         </Link>
                         <Link href="/activities/incubatorprogramme">
-                            Incubator Programmes{" "}
+                            Incubator Programmes
                         </Link>
                     </div>
                 </div>
@@ -109,9 +109,9 @@ export default function incubator() {
                     <br></br>
                     <p className={utilStyles.funFact}>
                         *Fun fact: This website was developed under the
-                        Incubator Programme by{" "}
-                        <a href="https://github.com/xyntechx">Nyx</a>,{" "}
-                        <a href="https://github.com/janani10734">Janani</a>, and{" "}
+                        Incubator Programme by
+                        <a href="https://github.com/xyntechx">Nyx</a>,
+                        <a href="https://github.com/janani10734">Janani</a>, and
                         <a href="https://github.com/glenda-tann">Glenda</a>!
                     </p>
                 </div>
