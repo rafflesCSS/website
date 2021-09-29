@@ -185,6 +185,7 @@
 .dropdownBtn {
   font-size: 17px;
   color: white;
+  cursor: pointer;
 }
 
 .navBar a:hover, .dropdownBtn:hover {
