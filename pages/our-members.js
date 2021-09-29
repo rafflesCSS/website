@@ -3,7 +3,7 @@ import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 
-function OurMembers() {
+export default function OurMembers() {
     return (
         <div className={utilStyles.screen}>
             <Head>
@@ -42,22 +42,20 @@ function OurMembers() {
                         2021-2022 Activities/Courses
                     </a>
                     <div className={utilStyles.dropdownContent}>
-                        <Link href="/activities/ui-uxdesign">
-                            UI/UX Design
-                        </Link>
-                        <Link href="/activities/webandmobileappdevt">
+                        <Link href="/activities/uiux">UI/UX Design</Link>
+                        <Link href="/activities/web-mobile-dev">
                             Web and Mobile App Development
                         </Link>
-                        <Link href="/activities/backenddevt">
+                        <Link href="/activities/backend-dev">
                             Backend Development
                         </Link>
-                        <Link href="/activities/competitiveprogramming">
+                        <Link href="/activities/competitive-programming">
                             Competitive Programming
                         </Link>
-                        <Link href="/activities/datasciandmachinelearning">
+                        <Link href="/activities/ds-ml">
                             Data Science and Machine Learning
                         </Link>
-                        <Link href="/activities/incubatorprogramme">
+                        <Link href="/activities/incubator">
                             Incubator Programmes
                         </Link>
                     </div>
@@ -85,7 +83,6 @@ function OurMembers() {
                 </p>
                 <table>
                     <tr>
-                        
                         <td>
                             <Image
                                 src="/ai.png"
@@ -95,7 +92,6 @@ function OurMembers() {
                             />
                         </td>
                         <td>
-                            
                             <Image
                                 src="/webdevt.png"
                                 alt="CSS exco"
@@ -153,5 +149,3 @@ function OurMembers() {
         </div>
     );
 }
-
-export default OurMembers;

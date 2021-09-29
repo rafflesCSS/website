@@ -39,22 +39,22 @@ export default function Home() {
                             2021-2022 Activities/Courses
                         </a>
                         <div className={utilStyles.dropdownContent}>
-                            <Link href="/activities/ui-uxdesign">
+                            <Link href="/activities/uiux">
                                 UI/UX Design
                             </Link>
-                            <Link href="/activities/webandmobileappdevt">
+                            <Link href="/activities/web-mobile-dev">
                                 Web and Mobile App Development
                             </Link>
-                            <Link href="/activities/backenddevt">
+                            <Link href="/activities/backend-dev">
                                 Backend Development
                             </Link>
-                            <Link href="/activities/competitiveprogramming">
+                            <Link href="/activities/competitive-programming">
                                 Competitive Programming
                             </Link>
-                            <Link href="/activities/datasciandmachinelearning">
+                            <Link href="/activities/ds-ml">
                                 Data Science and Machine Learning
                             </Link>
-                            <Link href="/activities/incubatorprogramme">
+                            <Link href="/activities/incubator">
                                 Incubator Programmes
                             </Link>
                         </div>
@@ -85,14 +85,14 @@ export default function Home() {
                         transforming our way of life for the better. We offer
                         courses from
                         <a
-                            href="/activities/datasciandmachinelearning"
+                            href="/activities/ds-ml"
                             className={utilStyles.a}
                         >
                             Data Science
                         </a>
                         to
                         <a
-                            href="/activities/webandmobileappdevt"
+                            href="/activities/web-mobile-dev"
                             className={utilStyles.a}
                         >
                             Web Development
