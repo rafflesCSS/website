@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
+=======
+import Link from 'next/link'
+import utilStyles from '../styles/utils.module.css'
+import Image from 'next/image'
+>>>>>>> parent of 79811e5 (Update our-members.js)
 
 function OurMembers() {
     return (
         <div className={utilStyles.screen}>
+<<<<<<< HEAD
             <Head>
                 <title>RI CSS</title>
                 <link
@@ -22,6 +29,10 @@ function OurMembers() {
                 ></link>
             </Head>
 
+=======
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+            
+>>>>>>> parent of 79811e5 (Update our-members.js)
             <div className={utilStyles.navBar}>
                 <Link href="/">
                     <a>
