@@ -1,10 +1,17 @@
-import Link from 'next/link'
-import utilStyles from '../styles/utils.module.css'
-import Image from 'next/image'
+import Head from 'next/head';
+import Link from 'next/link';
+import utilStyles from '../styles/utils.module.css';
+import Image from 'next/image';
+
 function Competitions() {
     return (
         <div className={utilStyles.screen}>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+        <Head>
+          <title>RI CSS</title>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+        </Head>
         
         <div className={utilStyles.navBar}>
             
