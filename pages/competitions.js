@@ -66,8 +66,9 @@ export default function Competitions() {
                 </Link>
             </div>
 
+            <h1 className={utilStyles.h1}>Competitions</h1>
+
             <section className={utilStyles.marginBottom}>
-                <h1 className={utilStyles.h1}>Competitions</h1>
                 <Image
                     src="/noi.png"
                     alt="National Olympiad in Informatics (NOI)"

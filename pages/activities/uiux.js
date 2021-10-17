@@ -66,7 +66,7 @@ export default function UIUX() {
                 </Link>
             </div>
 
-            <section>
+            <section className={utilStyles.marginBottom}>
                 <h1 className={utilStyles.h1}>
                     <b>UI/UX Design</b>
                 </h1>
@@ -117,7 +117,6 @@ export default function UIUX() {
                             By Yongsheng and David
                         </p>
                     </section>
-
                 </div>
 
                 <br></br>

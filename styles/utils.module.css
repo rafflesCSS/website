@@ -110,6 +110,7 @@
 }
 
 .container {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -129,13 +130,13 @@
 }
 
 .pCenter {
-  text-align: center;
+    text-align: center;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
 }
 
 .subtitle {
@@ -332,7 +333,7 @@
 }
 
 .marginBottom {
-  margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 
 .footer {
@@ -436,6 +437,10 @@
 
     .subtitle {
         margin-top: 20%;
+    }
+
+    .marginBottom {
+        margin-bottom: 4rem;
     }
 }
 

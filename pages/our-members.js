@@ -66,44 +66,41 @@ export default function OurMembers() {
                 </Link>
             </div>
 
-            <section className={utilStyles.screen}>
-                <h1 className={utilStyles.h1}>
-                    <b>Our Members</b>
-                </h1>
-                <p>
-                    <b>EXCO 2020-2021</b>
-                </p>
-                <Image
-                    src="/exco.png"
-                    alt="CSS exco"
-                    width="500px"
-                    height="300px"
-                />
-                <p>
-                    <b>Members</b>
-                </p>
-                <table>
-                    <tr>
-                        <td>
-                            <Image
-                                src="/ai.png"
-                                alt="CSS exco"
-                                width="500px"
-                                height="300px"
-                            />
-                        </td>
-                        <td>
-                            <Image
-                                src="/webdevt.png"
-                                alt="CSS exco"
-                                width="400px"
-                                height="300px"
-                            />
-                        </td>
-                    </tr>
-                </table>
+            <section className={utilStyles.marginBottom}>
+                <section className={utilStyles.screen}>
+                    <h1 className={utilStyles.h1}>
+                        <b>Our Members</b>
+                    </h1>
+                    <p>
+                        <b>EXCO 2020-2021</b>
+                    </p>
+                    <Image
+                        src="/exco.png"
+                        alt="CSS exco"
+                        width="500px"
+                        height="300px"
+                    />
+                    <p>
+                        <b>Members</b>
+                    </p>
 
-                <br></br>
+                    <section className={utilStyles.grid}>
+                        <Image
+                            src="/ai.png"
+                            alt="CSS exco"
+                            width="500px"
+                            height="300px"
+                        />
+                        <Image
+                            src="/webdevt.png"
+                            alt="CSS exco"
+                            width="400px"
+                            height="300px"
+                        />
+                    </section>
+
+                    <br></br>
+                </section>
             </section>
 
             <Footer />

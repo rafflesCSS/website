@@ -66,7 +66,7 @@ export default function WebMobileDev() {
                 </Link>
             </div>
 
-            <section>
+            <section className={utilStyles.marginBottom}>
                 <h1 className={utilStyles.h1}>
                     <b>Web and Mobile App Development</b>
                 </h1>
