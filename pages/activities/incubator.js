@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "/styles/utils.module.css";
 import Image from "next/image";
+import Footer from "../../components/footer";
 
 export default function Incubator() {
     return (
@@ -65,7 +66,7 @@ export default function Incubator() {
                 </Link>
             </div>
 
-            <section>
+            <section className={utilStyles.marginBottom}>
                 <h1 className={utilStyles.h1}>
                     <b>Incubator Programmes</b>
                 </h1>
@@ -74,6 +75,7 @@ export default function Incubator() {
                         <li className={utilStyles.li}>
                             <span className="material-icons">emoji_events</span>
                             <p>
+                                {" "}
                                 Want to prepare for a Computer Science-related
                                 competition?
                             </p>
@@ -82,6 +84,7 @@ export default function Incubator() {
                         <li className={utilStyles.li}>
                             <span className="material-icons">people</span>
                             <p>
+                                {" "}
                                 Want to start your own project with like-minded
                                 individuals*?
                             </p>
@@ -90,6 +93,7 @@ export default function Incubator() {
                         <li className={utilStyles.li}>
                             <span className="material-icons">computer</span>
                             <p>
+                                {" "}
                                 Want to learn a different specialization (e.g.
                                 Arduino)?
                             </p>
@@ -107,57 +111,17 @@ export default function Incubator() {
                     <br></br>
                     <p className={utilStyles.funFact}>
                         *Fun fact: This website was developed under the
-                        Incubator Programme by
-                        <a href="https://github.com/xyntechx"> Nyx</a>,
-                        <a href="https://github.com/janani10734"> Janani</a>, and
-                        <a href="https://github.com/glenda-tann"> Glenda</a>!
+                        Incubator Programme by {" "}
+                        <a href="https://github.com/xyntechx">Nyx</a>,{" "}
+                        <a href="https://github.com/janani10734">Janani</a>, and{" "}
+                        <a href="https://github.com/glenda-tann">Glenda</a>!
                     </p>
                 </div>
 
-                <br></br>
+                <br />
             </section>
 
-            <section className={utilStyles.footer}>
-                <div className={utilStyles.footercontent}>
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">place</span>
-                        <Link href="http://www.ri.edu.sg/visit-us">
-                            <a target="_blank" className={utilStyles.link}>
-                                Our Location
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">mail</span>
-                        <Link href="mailto:cssrjc@gmail.com">
-                            <a target="_blank" className={utilStyles.link}>
-                                cssrjc@gmail.com
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">alternate_email</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a target="_blank" className={utilStyles.link}>
-                                rafflescss
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">photo_camera</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a className={utilStyles.link}>Photos</a>
-                        </Link>
-                    </div>
-                </div>
-
-                <hr></hr>
-
-                <p>&#169; 2021 Raffles Institution Computer Science Society</p>
-            </section>
+            <Footer />
         </div>
     );
 }

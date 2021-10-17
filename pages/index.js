@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
+import Footer from "../components/footer";
 
 export default function Home() {
     return (
@@ -39,9 +40,7 @@ export default function Home() {
                             2021-2022 Activities/Courses
                         </a>
                         <div className={utilStyles.dropdownContent}>
-                            <Link href="/activities/uiux">
-                                UI/UX Design
-                            </Link>
+                            <Link href="/activities/uiux">UI/UX Design</Link>
                             <Link href="/activities/web-mobile-dev">
                                 Web and Mobile App Development
                             </Link>
@@ -83,14 +82,11 @@ export default function Home() {
                         Science Society, a CCA filled with passionate
                         individuals who believe in the power of technology in
                         transforming our way of life for the better. We offer
-                        courses from
-                        <a
-                            href="/activities/ds-ml"
-                            className={utilStyles.a}
-                        >
+                        courses from {" "}
+                        <a href="/activities/ds-ml" className={utilStyles.a}>
                             Data Science
                         </a>
-                        to
+                        {" "} to {" "}
                         <a
                             href="/activities/web-mobile-dev"
                             className={utilStyles.a}
@@ -160,47 +156,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className={utilStyles.footer}>
-                <div className={utilStyles.footercontent}>
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">place</span>
-                        <Link href="http://www.ri.edu.sg/visit-us">
-                            <a target="_blank" className={utilStyles.link}>
-                                Our Location
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">mail</span>
-                        <Link href="mailto:cssrjc@gmail.com">
-                            <a target="_blank" className={utilStyles.link}>
-                                cssrjc@gmail.com
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">alternate_email</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a target="_blank" className={utilStyles.link}>
-                                rafflescss
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">photo_camera</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a className={utilStyles.link}>Photos</a>
-                        </Link>
-                    </div>
-                </div>
-
-                <hr></hr>
-
-                <p>&#169; 2021 Raffles Institution Computer Science Society</p>
-            </section>
+            <Footer />
         </div>
     );
 }

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
+import Footer from "../components/footer";
 
 export default function Competitions() {
     return (
@@ -65,72 +66,31 @@ export default function Competitions() {
                 </Link>
             </div>
 
-            <h1 className={utilStyles.h1}>Competitions</h1>
-            <Image
-                src="/noi.png"
-                alt="National Olympiad in Informatics (NOI)"
-                width="500px"
-                height="200px"
-            />
-            <br></br>
-            <Image
-                src="/whitehacks.jpeg"
-                alt="Whitehacks"
-                width="500px"
-                height="200px"
-            />
-            <br></br>
-            <Image
-                src="/brainhack.png"
-                alt="BrainHack"
-                width="500px"
-                height="200px"
-            />
-
-            <br></br>
-            <br></br>
-
-            <section className={utilStyles.footer}>
-                <div className={utilStyles.footercontent}>
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">place</span>
-                        <Link href="http://www.ri.edu.sg/visit-us">
-                            <a target="_blank" className={utilStyles.link}>
-                                Our Location
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">mail</span>
-                        <Link href="mailto:cssrjc@gmail.com">
-                            <a target="_blank" className={utilStyles.link}>
-                                cssrjc@gmail.com
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">alternate_email</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a target="_blank" className={utilStyles.link}>
-                                rafflescss
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">photo_camera</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a className={utilStyles.link}>Photos</a>
-                        </Link>
-                    </div>
-                </div>
-
-                <hr></hr>
-
-                <p>&#169; 2021 Raffles Institution Computer Science Society</p>
+            <section className={utilStyles.marginBottom}>
+                <h1 className={utilStyles.h1}>Competitions</h1>
+                <Image
+                    src="/noi.png"
+                    alt="National Olympiad in Informatics (NOI)"
+                    width="500px"
+                    height="200px"
+                />
+                <br></br>
+                <Image
+                    src="/whitehacks.jpeg"
+                    alt="Whitehacks"
+                    width="500px"
+                    height="200px"
+                />
+                <br></br>
+                <Image
+                    src="/brainhack.png"
+                    alt="BrainHack"
+                    width="500px"
+                    height="200px"
+                />
             </section>
+
+            <Footer />
         </div>
     );
 }

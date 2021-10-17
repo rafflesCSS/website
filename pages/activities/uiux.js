@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "/styles/utils.module.css";
 import Image from "next/image";
+import Footer from "../../components/footer";
 
 export default function UIUX() {
     return (
@@ -83,92 +84,46 @@ export default function UIUX() {
 
                     <br></br>
 
-                    <p>
+                    <p className={utilStyles.pCenter}>
                         <b>
                             <u>Students' Works</u>
                         </b>
                     </p>
 
-                    <table className={utilStyles.table}>
-                        <tr>
-                            <td>
-                                <Image
-                                    src="/venue.png"
-                                    alt="work1"
-                                    width="1000px"
-                                    height="500px"
-                                />
-                            </td>
-                            <td>
-                                <Image
-                                    src="/eat.png"
-                                    alt="work2"
-                                    width="1000px"
-                                    height="500px"
-                                />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Figma prototype of website for booking school
-                                venues
-                                <br></br>
-                                By Mike and Adrienne
-                            </td>
-                            <td>
-                                Figma prototype of website to tackle mental
-                                health
-                                <br></br>
-                                By Yongsheng and David
-                            </td>
-                        </tr>
-                    </table>
+                    <section className={utilStyles.grid}>
+                        <Image
+                            src="/venue.png"
+                            alt="work1"
+                            width="1000px"
+                            height="500px"
+                        />
+                        <Image
+                            src="/eat.png"
+                            alt="work2"
+                            width="1000px"
+                            height="500px"
+                        />
+                    </section>
+
+                    <section className={utilStyles.grid}>
+                        <p>
+                            Figma prototype of website for booking school venues
+                            <br />
+                            By Mike and Adrienne
+                        </p>
+                        <p>
+                            Figma prototype of website to tackle mental health
+                            <br />
+                            By Yongsheng and David
+                        </p>
+                    </section>
+
                 </div>
 
                 <br></br>
             </section>
 
-            <section className={utilStyles.footer}>
-                <div className={utilStyles.footercontent}>
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">place</span>
-                        <Link href="http://www.ri.edu.sg/visit-us">
-                            <a target="_blank" className={utilStyles.link}>
-                                Our Location
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">mail</span>
-                        <Link href="mailto:cssrjc@gmail.com">
-                            <a target="_blank" className={utilStyles.link}>
-                                cssrjc@gmail.com
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">alternate_email</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a target="_blank" className={utilStyles.link}>
-                                rafflescss
-                            </a>
-                        </Link>
-                    </div>
-
-                    <div className={utilStyles.li}>
-                        <span className="material-icons">photo_camera</span>
-                        <Link href="https://www.instagram.com/rafflescss/">
-                            <a className={utilStyles.link}>Photos</a>
-                        </Link>
-                    </div>
-                </div>
-
-                <hr></hr>
-
-                <p>&#169; 2021 Raffles Institution Computer Science Society</p>
-            </section>
+            <Footer />
         </div>
     );
 }
