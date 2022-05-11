@@ -1,4 +1,4 @@
-# rafflesCSS Website
+# Raffles CSS Website
 The website of Raffles Institution's Computer Science Society
 
 ## 🤖 Tech
