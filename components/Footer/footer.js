@@ -39,6 +39,17 @@ export default function Footer() {
                         @rafflescss
                     </a>
                 </Link>
+                <Link href="/contact-us">
+                    <a className={styles.link}>
+                        <Image
+                            src="/form.png"
+                            width={24}
+                            height={24}
+                            alt="Form Logo"
+                        />{" "}
+                        Contact Us
+                    </a>
+                </Link>
             </div>
 
             <sub className={styles.copyright}>
