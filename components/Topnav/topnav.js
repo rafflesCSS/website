@@ -23,6 +23,9 @@ export default function Topnav() {
                 <Link href="/interest-groups">
                     <a className={styles.link}>Interest Groups</a>
                 </Link>
+                <Link href="/competitions">
+                    <a className={styles.link}>Competitions</a>
+                </Link>
                 <Link href="/incubator">
                     <a className={styles.link}>Incubator Programme</a>
                 </Link>
