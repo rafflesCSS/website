@@ -68,7 +68,7 @@ export default function Home() {
                     <section className={styles.wrapperCol}>
                         <h1 className={styles.title}>About Us</h1>
                         <p className={styles.text}>
-                            We are the Computer Science Society, a CCA filled
+                            Raffles Computer Science Society is a CCA filled
                             with passionate individuals who believe in the power
                             of technology in transforming our way of life for
                             the better. We are a diverse group with a plethora
@@ -110,10 +110,41 @@ export default function Home() {
 
                 <section className={styles.bigDiv}>
                     <section className={styles.wrapperCol}>
+                        <h1 className={styles.title}>Testimonials</h1>
+                        <div className={styles.text}>
+                            &quot;CSS is an enriching CCA for all who are
+                            passionate about programming! Not only are the
+                            courses it offers useful and interesting, the
+                            incubator programme in particular promotes
+                            creativity and presents the chance for members to
+                            experiment and create innovative projects. By and
+                            large, anyone who wants to learn computer science
+                            should definitely join CSS!&quot;
+                            <br />
+                            <p className={styles.textGreen}>
+                                Nyx Audrey Angelo Iskandar
+                            </p>
+                        </div>
+                        <div className={styles.text}>
+                            &quot;CSS is a place where you explore new
+                            possibilities and expand your creativity.&quot;
+                            <br />
+                            <p className={styles.textGreen}>Lee Bao Yu</p>
+                        </div>
+                        <div className={styles.text}>
+                            &quot;CSS is love. CSS is life.&quot;
+                            <br />
+                            <p className={styles.textGreen}>Huang Zi Wen</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section className={styles.bigDiv}>
+                    <section className={styles.wrapperCol}>
                         <h1 className={styles.title}>Curious?</h1>
                         <p className={styles.text}>
                             Explore this website to learn more about what we do
-                            at CSS!
+                            at CSS
                         </p>
                         <Link href="/courses">
                             <a className={styles.link}>Courses</a>
@@ -121,9 +152,19 @@ export default function Home() {
                         <Link href="/interest-groups">
                             <a className={styles.link}>Interest Groups</a>
                         </Link>
+                        <Link href="/competitions">
+                            <a className={styles.link}>Competitions</a>
+                        </Link>
                         <Link href="/incubator">
                             <a className={styles.link}>Incubator Programme</a>
                         </Link>
+                        <p className={styles.text}>
+                            or{" "}
+                            <Link href="/contact-us">
+                                <a className={styles.link}>contact us</a>
+                            </Link>{" "}
+                            to keep in touch with the team!
+                        </p>
                     </section>
                 </section>
 

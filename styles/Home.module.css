@@ -72,11 +72,18 @@
     color: #fff;
 }
 
-.text {
+.text,
+.textGreen {
     text-align: justify;
     font-size: 1.2rem;
     margin: 1rem;
     line-height: 1.5;
+}
+
+.textGreen {
+    color: #06a783;
+    text-align: center;
+    margin: 0.5rem 1rem;
 }
 
 .memberPics {
@@ -122,11 +129,13 @@
 
     .code,
     .text,
-    .link {
+    .link,
+    .textGreen {
         font-size: 1rem;
     }
 
-    .text {
+    .text,
+    .textGreen {
         line-height: normal;
     }
 }
