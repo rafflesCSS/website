@@ -62,32 +62,14 @@ export default function Incubator() {
                                     </h1>
                                     <p className={styles.text}>
                                         This project is the website you are on
-                                        right now! Using Figma and Next.js, CSS
-                                        members{" "}
-                                        <Link href="https://github.com/xyntechx">
+                                        right now! Using Figma and Next.js,
+                                        creative and skilled{" "}
+                                        <Link href="https://github.com/rafflesCSS/website">
                                             <a
                                                 target="_blank"
                                                 className={styles.link}
                                             >
-                                                Nyx
-                                            </a>
-                                        </Link>
-                                        ,{" "}
-                                        <Link href="https://github.com/glenda-tann">
-                                            <a
-                                                target="_blank"
-                                                className={styles.link}
-                                            >
-                                                Glenda
-                                            </a>
-                                        </Link>{" "}
-                                        and{" "}
-                                        <Link href="https://github.com/janani10734">
-                                            <a
-                                                target="_blank"
-                                                className={styles.link}
-                                            >
-                                                Janani
+                                                CSS members
                                             </a>
                                         </Link>{" "}
                                         designed and developed this website from
